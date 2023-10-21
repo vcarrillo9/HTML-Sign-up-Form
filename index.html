@@ -18,19 +18,52 @@
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname">
+                <label for="Lastname">Your Last Name</label>
                 <input type="text" id="lastname"  name="lastname">
             </div>
-         
-            <!-- Todo: Email Input --> kkkkkkk
-            <!-- Todo: Street Address Input -->
-            <!-- Todo: City, State, and Zip Inputs -->
+            <fieldset>
+            <legend>your contact info</legend>
+            <label for="email">your email</label>
+            <input type="text" id="email" name="email">
+            <label for="address">your street address</label>
+            <input type="text" id="address" name="address">
+            <label for="city">your city</label>
+            <input type="text" id="city" name="city"
+            
+        <form method="get" action="results.html"> 
+            <select name="state">
+            <option value="AK">Alaska</option>
+        </select>
+        </form>
+        <form>
+            <label for="zipcode">your zip code</label>
+            <input type="text" id="zipcode" name="zipcode">
+            </fieldset>
+            
+            <fieldset>
+            <legend>Your Preferences</legend>
+            <input type="radio" id="aruba" name="location" value="aruba" checked>
+            <label for="aruba">Aruba</label>
+            <input type="radio" id="Japan" name="location" value="Japan" checked>
+            <label for="Japan">Japan</label>
+            <input type="radio" id="Reykjavik" name="location" value="Reykjavik" checked>
+            <label for="Reykjavik">Reykjavik</label>
+            <input type="radio" id="New Zealand" name="location" value="New Zealand" checked>
+            <label for="New Zealand">New Zealand</label>
+            <label for="color">your favorite color</label>
+            <input type="color" id="color">
+            
+            <legend>trip extras</legend>
+            <input type="radio" id="sauna access" name="extras" value="sauna access" checked>
+            <label for="sauna access">sauna access</label>
+            <input type="radio" id="in room hot-tub" name="extras" value="in room hot-tub" checked>
+            <label for="in room hot-tub">in room hot-tub</label>
+            
+            </fieldset>
 
-            <!-- TODO: Second fieldset -->
-            <!-- TODO: Radio buttons for selecting preferred destination -->
-            <!-- TODO: Color input for selecting favorite color -->
-            <!-- TODO: Checkboxes for selecting extra add-ons -->
             
             <!-- TODO: Submit Button -->
+            <input type="submit" value="enter contest">
         </form>
     </main>
     <footer>
